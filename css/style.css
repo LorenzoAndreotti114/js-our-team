@@ -27,7 +27,6 @@ img {
     text-align: center;
     padding: 3%;
     width: 100%;
-    background-color: brown;
 }
 
 /* MAIN */
@@ -36,10 +35,6 @@ img {
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-color: burlywood;
-
-    /* debug */
-
 }
 
 .inner {
@@ -49,22 +44,20 @@ img {
     flex-wrap: wrap;
     width: 90%;
     height: 80%;
-    border: 1px solid black;
 }
 
 /* CARD */
 .card {
     width: 30%;
     height: 48%;
-    border: 1px solid red;
+    border: 1px solid black;
     margin: 1%;
+    background-color: lightgray;
 }
 
 .top-card {
-    padding: 2%;
     width: 100%;
     height: 80%;
-    border: 1px solid black;
 }
 
 .bottom-card {
